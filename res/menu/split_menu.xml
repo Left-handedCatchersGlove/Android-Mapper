@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- マーク機能 -->
+    <item
+        android:id="@+id/splitMenu_myplaces"
+        android:icon="@drawable/ic_menu_myplaces"
+        android:showAsAction="ifRoom"
+        android:title="@string/myplaces">
+
+        <!-- MyPlaces:サブメニュー -->
+        <menu>
+            <group
+                android:id="@+id/myplaces_group"
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/addMarker"
+                    android:title="@string/addMarker"/>
+                <item
+                    android:id="@+id/none"
+                    android:title="@string/none"/>
+            </group>
+        </menu>
+    </item>
+
+    <!-- 検索機能 -->
+    <item
+        android:id="@+id/splitMenu_search"
+        android:icon="@drawable/ic_menu_view"
+        android:showAsAction="ifRoom"
+        android:title="@string/view">
+
+        <!-- View:サブメニュー -->
+        <menu>
+            <group android:id="@+id/view_group" >
+                <item
+                    android:id="@+id/SearchPlace"
+                    android:title="@string/SearchPlace"/>
+            </group>
+            <group
+                android:id="@+id/view_group2"
+                android:checkableBehavior="all" >
+                <item
+                    android:id="@+id/lookMe"
+                    android:title="@string/lookMe"/>
+            </group>
+        </menu>
+    </item>
+
+    <!-- 描画機能 -->
+    <item
+        android:id="@+id/splitMenu_edit"
+        android:icon="@drawable/ic_menu_edit"
+        android:showAsAction="ifRoom"
+        android:title="@string/edit">
+
+        <!-- Edit:サブメニュー -->
+        <menu>
+            <group android:id="@+id/edit_group" >
+                <item
+                    android:id="@+id/drawLine"
+                    android:title="@string/drawLine"/>
+            </group>
+            <group
+                android:id="@+id/edit_group2"
+                android:checkableBehavior="all" >
+                <item
+                    android:id="@+id/drawPolygon"
+                    android:title="@string/drawPolygon"/>
+            </group>
+        </menu>
+    </item>
+
+    <!-- 設定機能 -->
+    <item
+        android:id="@+id/splitMenu_preferences"
+        android:icon="@drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom"
+        android:title="@string/preferences">
+
+        <!-- Preferences:サブメニュー -->
+        <menu>
+            <group
+                android:id="@+id/Preferences_group"
+                android:checkableBehavior="all" >
+                <item
+                    android:id="@+id/setAnim"
+                    android:title="@string/setAnim"/>
+            </group>
+        </menu>
+    </item>
+
+    <!-- 削除機能 -->
+    <item
+        android:id="@+id/splitMenu_delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/delete">
+
+        <!-- Delete:サブメニュー -->
+        <menu>
+            <group android:id="@+id/delete_group" >
+                <item
+                    android:id="@+id/clearMap"
+                    android:title="@string/clearMap"/>
+            </group>
+            <group
+                android:id="@+id/delete_group2"
+                android:checkableBehavior="all" >
+                <item
+                    android:id="@+id/deleteMarker"
+                    android:title="@string/deleteMarker"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maper</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_setting">設定</string>
+    <string name="menu_edit">描画</string>
+    <string name="menu_mapmode">マップ選択</string>
+    <string name="menu_view">Maper</string>
+
+    <!-- アクションナビゲーション -->
+    <string-array name="action_list">
+        <item>NORMAL</item>
+        <item>SATELLITE</item>
+        <item>TERRAIN</item>
+        <item>HYBRID</item>
+    </string-array>
+
+    <!-- スプリットアクションバー -->
+    <string name="addMarker">マーカー追加</string>
+    <string name="delete">delete</string>
+    <string name="edit">edit</string>
+    <string name="myplaces">myplaces</string>
+    <string name="none">none</string>
+    <string name="preferences">preferences</string>
+    <string name="save">save</string>
+    <string name="view">view</string>
+
+    <!-- myplaces:入力画面 -->
+    <string name="please_title">-タイトル-</string>
+    <string name="please_description">-説明-</string>
+    <string name="button_return">マーカー設置</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="SearchPlace">検索じゃ</string>
+    <string name="lookMe">ｺｯﾁｦﾐﾛ</string>
+    
+    <!-- Edit -->
+    <string name="drawLine">歩くんじゃ</string>
+    <string name="drawPolygon">マナー範囲</string>
+
+    <!-- Preferences -->
+    <string name="setAnim">アニメーションオフ</string>
+    <string name="clearMap">マップクリア</string>
+    <string name="deleteMarker">マーカーの削除</string>
+
+</resources>
